@@ -2,7 +2,7 @@
     "author": "Your Name",
     "version": "Your Version",
     "name": "Your Plugin Name",
-    "url": "https://github.com/CodiadMarket/Codiad-Plugin-Template",
+    "url": "https://github.com/Codiad/Codiad-Plugin-Template",
     "rightbar": [
         {
             "action": "codiad.MY_PLUGIN.SOME_METHOD();",
