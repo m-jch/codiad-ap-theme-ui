@@ -12,10 +12,10 @@
 
     // Instantiates plugin
     $(function() {    
-        codiad.MYPLUGIN.init();
+        codiad.MY_PLUGIN.init();
     });
 
-    codiad.MYPLUGIN = {
+    codiad.MY_PLUGIN = {
         
         // Allows relative `this.path` linkage
         path: curpath,
@@ -32,6 +32,10 @@
          * script-loads, etc...
          * 
          */
+         
+         SOME_METHOD: function() {
+            alert('Hello World');  
+         }
 
     };
 
