@@ -1,21 +1,13 @@
 [{
-    "author": "Your Name",
-    "version": "Your Version",
-    "name": "Your Plugin Name",
-    "url": "https://github.com/Codiad/Codiad-Plugin-Template",
+    "author": "mohsen shafiei",
+    "version": "0.1",
+    "name": "ap-theme-ui",
+    "url": "",
     "rightbar": [
         {
-            "action": "codiad.MY_PLUGIN.SOME_METHOD();",
+            "action": "codiad.AP_THEME_UI.RIGHTBAR();",
             "icon": "icon-info-circled",
-            "title": "This will be displayed in the rightbar"
-        }
-    ],
-    "contextmenu": [
-        {
-            "action": "codiad.MY_PLUGIN.SOME_METHOD();",
-            "icon": "icon-info-circled",
-            "applies-to": "both",
-            "title": "This will be displayed in the contextmenu"
+            "title": "ap-theme-ui"
         }
     ]
 }]

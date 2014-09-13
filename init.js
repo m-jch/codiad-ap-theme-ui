@@ -1,5 +1,5 @@
 /*
- *  Place copyright or other info here...
+ *  license: MIT
  */
 
 (function(global, $){
@@ -12,29 +12,18 @@
 
     // Instantiates plugin
     $(function() {    
-        codiad.MY_PLUGIN.init();
+        codiad.AP_THEME_UI.init();
     });
 
-    codiad.MY_PLUGIN = {
-        
-        // Allows relative `this.path` linkage
+    codiad.AP_THEME_UI = {
         path: curpath,
 
         init: function() {
-
-            // Start your plugin here...
-
+        	
         },
-
-        /**
-         * 
-         * This is where the core functionality goes, any call, references,
-         * script-loads, etc...
-         * 
-         */
          
-         SOME_METHOD: function() {
-            alert('Hello World');  
+         RIGHTBAR: function() {
+    		alert('ap-theme-ui v0.1 \nfor disable this theme remove plugin from plugins directory \n');
          }
 
     };
