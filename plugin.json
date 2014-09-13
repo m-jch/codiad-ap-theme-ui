@@ -2,7 +2,7 @@
     "author": "mohsen shafiei",
     "version": "0.1",
     "name": "ap-theme-ui",
-    "url": "",
+    "url": "https://github.com/mohsen-shafiee/codiad-ap-theme-ui.git",
     "rightbar": [
         {
             "action": "codiad.AP_THEME_UI.RIGHTBAR();",
